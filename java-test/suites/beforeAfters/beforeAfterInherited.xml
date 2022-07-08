@@ -1,0 +1,8 @@
+<suite name="beforesAfters" verbose="1" >
+    <test name="t1" >
+        <classes>
+            <class name="beforeAfters.ChildClass" />
+        </classes>
+    </test>
+
+</suite>

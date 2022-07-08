@@ -1,47 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-08T13:44:27 CEST" name="Package Suite" finished-at="2022-07-08T13:44:27 CEST" duration-ms="49">
+  <suite started-at="2022-07-08T20:48:37 CEST" name="abc" finished-at="2022-07-08T20:48:37 CEST" duration-ms="52">
     <groups>
     </groups>
-    <test started-at="2022-07-08T13:44:27 CEST" name="Package Test" finished-at="2022-07-08T13:44:27 CEST" duration-ms="49">
-      <class name="packages.package2.TestClass2a">
-        <test-method signature="aFastTest()[pri:0, instance:packages.package2.TestClass2a@2e55dd0c]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
+    <test started-at="2022-07-08T20:48:37 CEST" name="bcd" finished-at="2022-07-08T20:48:37 CEST" duration-ms="52">
+      <class name="logging.LoggingTest">
+        <test-method signature="testMethodTwo()[pri:0, instance:logging.LoggingTest@4ef37659]" started-at="2022-07-08T20:48:37 CEST" name="testMethodTwo" finished-at="2022-07-08T20:48:37 CEST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at logging.LoggingTest.testMethodTwo(LoggingTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aFastTest -->
-      </class> <!-- packages.package2.TestClass2a -->
-      <class name="packages.package2.TestClass2b">
-        <test-method signature="aFastTest()[pri:0, instance:packages.package2.TestClass2b@77eca502]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- testMethodTwo -->
+        <test-method signature="testMethodOne()[pri:0, instance:logging.LoggingTest@4ef37659]" started-at="2022-07-08T20:48:37 CEST" name="testMethodOne" finished-at="2022-07-08T20:48:37 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aFastTest -->
-      </class> <!-- packages.package2.TestClass2b -->
-      <class name="packages.package1.TestClass1b">
-        <test-method signature="aFastTest()[pri:0, instance:packages.package1.TestClass1b@74455848]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodThree()[pri:0, instance:logging.LoggingTest@4ef37659]" started-at="2022-07-08T20:48:37 CEST" name="testMethodThree" finished-at="2022-07-08T20:48:37 CEST" depends-on-methods="logging.LoggingTest.testMethodTwo" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method logging.LoggingTest.testMethodThree() on instance logging.LoggingTest@4ef37659 depends on not successfully finished methods 
+[logging.LoggingTest.testMethodTwo() on instance logging.LoggingTest@4ef37659]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method logging.LoggingTest.testMethodThree() on instance logging.LoggingTest@4ef37659 depends on not successfully finished methods 
+[logging.LoggingTest.testMethodTwo() on instance logging.LoggingTest@4ef37659]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aFastTest -->
-      </class> <!-- packages.package1.TestClass1b -->
-      <class name="packages.package1.TestClass1a">
-        <test-method signature="test1ab()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ab" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1ab -->
-        <test-method signature="test1aa()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1aa" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1aa -->
-        <test-method signature="test1ad()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ad" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1ad -->
-        <test-method signature="test1ac()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ac" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1ac -->
-      </class> <!-- packages.package1.TestClass1a -->
-    </test> <!-- Package Test -->
-  </suite> <!-- Package Suite -->
+        </test-method> <!-- testMethodThree -->
+      </class> <!-- logging.LoggingTest -->
+    </test> <!-- bcd -->
+  </suite> <!-- abc -->
 </testng-results>

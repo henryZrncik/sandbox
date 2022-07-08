@@ -1,0 +1,9 @@
+<suite name="abc" verbose="1" >
+    <test name="bcd" >
+        <classes>
+            <class name="TestAnnotationAttributes" />
+            <class name="TestDependsOn"/>
+
+        </classes>
+    </test>
+</suite>

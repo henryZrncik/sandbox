@@ -1,6 +1,14 @@
+logging/LoggingTest.class
+TestAnnotationAttributes.class
+packages/package2/TestClass2a.class
+logging/CustomLogging.class
+packages/package1/TestClass1b.class
+beforeAfters/BeforeAfters2.class
+beforeAfters/BaseClass.class
+packages/package1/TestClass1a.class
+TestDependsOn.class
 packages/additional/TestClass3.class
 helloWorld/SimpleTest.class
-packages/package2/TestClass2a.class
-packages/package1/TestClass1b.class
+beforeAfters/BeforeAfters1.class
+beforeAfters/ChildClass.class
 packages/package2/TestClass2b.class
-packages/package1/TestClass1a.class

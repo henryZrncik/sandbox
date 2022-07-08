@@ -23,12 +23,16 @@
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
 <!--                        <suiteXmlFile>suites/helloWorld.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>suites/packagesEnum.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>suites/packagesSubPackages.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>suites/classesEnum.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>suites/method.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>suites/mix.xml</suiteXmlFile>-->
-                        <suiteXmlFile>suites/exclude.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>suites/suites/packagesEnum.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/suites/packagesSubPackages.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/suites/classesEnum.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/suites/method.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/suites/mix.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/suites/exclude.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/beforeAfters/beforeAfter.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/beforeAfters/beforeAfterInherited.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/testRest.xml</suiteXmlFile>-->
+
 
                     </suiteXmlFiles>
                 </configuration>

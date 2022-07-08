@@ -8,17 +8,19 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Package Suite</th></tr>
-<tr><td><a href="#t0">Package Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">49</td><td></td><td></td></tr>
+<tr><th colspan="8">abc</th></tr>
+<tr><td><a href="#t0">bcd</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">52</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Package Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Package Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">packages.package1.TestClass1a</td><td><a href="#m0">test1aa</a></td><td rowspan="1">1657280667324</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m1">test1ab</a></td><td rowspan="1">1657280667324</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m2">test1ac</a></td><td rowspan="1">1657280667325</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">test1ad</a></td><td rowspan="1">1657280667325</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">packages.package1.TestClass1b</td><td><a href="#m4">aFastTest</a></td><td rowspan="1">1657280667323</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="1">packages.package2.TestClass2a</td><td><a href="#m5">aFastTest</a></td><td rowspan="1">1657280667322</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">packages.package2.TestClass2b</td><td><a href="#m6">aFastTest</a></td><td rowspan="1">1657280667316</td><td rowspan="1">4</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">abc</th></tr></tbody><tbody id="t0"><tr><th colspan="4">bcd &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">logging.LoggingTest</td><td><a href="#m0">testMethodTwo</a></td><td rowspan="1">1657306117837</td><td rowspan="1">14</td></tr><tr><th colspan="4">bcd &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">logging.LoggingTest</td><td><a href="#m1">testMethodThree</a></td><td rowspan="1">1657306117859</td><td rowspan="1">0</td></tr><tr><th colspan="4">bcd &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">logging.LoggingTest</td><td><a href="#m2">testMethodOne</a></td><td rowspan="1">1657306117856</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Package Test</h2><h3 id="m0">packages.package1.TestClass1a#test1aa</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">packages.package1.TestClass1a#test1ab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">packages.package1.TestClass1a#test1ac</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">packages.package1.TestClass1a#test1ad</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">packages.package1.TestClass1b#aFastTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">packages.package2.TestClass2a#aFastTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">packages.package2.TestClass2b#aFastTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>bcd</h2><h3 id="m0">logging.LoggingTest#testMethodTwo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at logging.LoggingTest.testMethodTwo(LoggingTest.java:13)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">logging.LoggingTest#testMethodThree</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method logging.LoggingTest.testMethodThree() on instance logging.LoggingTest@4ef37659 depends on not successfully finished methods 
+[logging.LoggingTest.testMethodTwo() on instance logging.LoggingTest@4ef37659]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">logging.LoggingTest#testMethodOne</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

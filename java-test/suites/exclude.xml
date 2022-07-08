@@ -1,0 +1,9 @@
+<suite name="Package Suite" verbose="1">
+    <test name="Package Test">
+        <packages>
+            <package name="packages.*">
+                <exclude name="packages.additional" />
+            </package>
+        </packages>
+    </test>
+</suite>

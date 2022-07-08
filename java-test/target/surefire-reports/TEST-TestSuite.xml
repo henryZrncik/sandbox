@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.47" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.431" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,8 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Users/hzrncik/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/hzrncik/Documents/code/sandbox/java-test/target/surefire/surefirebooter1167091136488611147.jar /Users/hzrncik/Documents/code/sandbox/java-test/target/surefire 2022-07-08T10-51-08_555-jvmRun1 surefire9162363439921332003tmp surefire_010470181740351345618tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.java.command" value="/Users/hzrncik/Documents/code/sandbox/java-test/target/surefire/surefirebooter12189897412791755631.jar /Users/hzrncik/Documents/code/sandbox/java-test/target/surefire 2022-07-08T13-44-26_609-jvmRun1 surefire8629324479204713343tmp surefire_018057905588012114703tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/hzrncik/Documents/code/sandbox/java-test/target/test-classes:/Users/hzrncik/Documents/code/sandbox/java-test/target/classes:/Users/hzrncik/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/hzrncik/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/hzrncik/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/hzrncik/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/hzrncik/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,9 +32,8 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/hzrncik/Documents/code/sandbox/java-test/target/surefire/surefirebooter1167091136488611147.jar"/>
+    <property name="surefire.real.class.path" value="/Users/hzrncik/Documents/code/sandbox/java-test/target/surefire/surefirebooter12189897412791755631.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.10+9"/>
     <property name="user.name" value="hzrncik"/>
     <property name="path.separator" value=":"/>
@@ -59,18 +57,37 @@
     <property name="java.vm.version" value="11.0.10+9"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="aFastTest" classname="SimpleTest" time="0.001">
-    <system-out><![CDATA[Fast test
+  <testcase name="aFastTest" classname="packages.package2.TestClass2b" time="0.002">
+    <system-out><![CDATA[test2b
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="aSlowTest" classname="SimpleTest" time="0.001">
-    <system-out><![CDATA[Slow test
+  <testcase name="aFastTest" classname="packages.package2.TestClass2a" time="0">
+    <system-out><![CDATA[test2a
+]]></system-out>
+  </testcase>
+  <testcase name="aFastTest" classname="packages.package1.TestClass1b" time="0.001">
+    <system-out><![CDATA[test1b
+]]></system-out>
+  </testcase>
+  <testcase name="test1aa" classname="packages.package1.TestClass1a" time="0">
+    <system-out><![CDATA[test1aa
+]]></system-out>
+  </testcase>
+  <testcase name="test1ab" classname="packages.package1.TestClass1a" time="0">
+    <system-out><![CDATA[test1ab
+]]></system-out>
+  </testcase>
+  <testcase name="test1ac" classname="packages.package1.TestClass1a" time="0">
+    <system-out><![CDATA[test1ac
+]]></system-out>
+  </testcase>
+  <testcase name="test1ad" classname="packages.package1.TestClass1a" time="0">
+    <system-out><![CDATA[test1ad
 ]]></system-out>
   </testcase>
 </testsuite>

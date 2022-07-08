@@ -22,7 +22,14 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>suites/testng.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>suites/helloWorld.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/packagesEnum.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/packagesSubPackages.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/classesEnum.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/method.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>suites/mix.xml</suiteXmlFile>-->
+                        <suiteXmlFile>suites/exclude.xml</suiteXmlFile>
+
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

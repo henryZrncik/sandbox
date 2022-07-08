@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-08T10:51:09 CEST" name="abc" finished-at="2022-07-08T10:51:09 CEST" duration-ms="47">
+  <suite started-at="2022-07-08T13:44:27 CEST" name="Package Suite" finished-at="2022-07-08T13:44:27 CEST" duration-ms="49">
     <groups>
-      <group name="fast">
-        <method signature="SimpleTest.aFastTest()[pri:0, instance:SimpleTest@1b6e1eff]" name="aFastTest" class="SimpleTest"/>
-      </group> <!-- fast -->
-      <group name="slow">
-        <method signature="SimpleTest.aSlowTest()[pri:0, instance:SimpleTest@1b6e1eff]" name="aSlowTest" class="SimpleTest"/>
-      </group> <!-- slow -->
     </groups>
-    <test started-at="2022-07-08T10:51:09 CEST" name="bcd" finished-at="2022-07-08T10:51:09 CEST" duration-ms="47">
-      <class name="SimpleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SimpleTest@1b6e1eff]" started-at="2022-07-08T10:51:09 CEST" name="setUp" finished-at="2022-07-08T10:51:09 CEST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="aFastTest()[pri:0, instance:SimpleTest@1b6e1eff]" started-at="2022-07-08T10:51:09 CEST" name="aFastTest" finished-at="2022-07-08T10:51:09 CEST" duration-ms="1" status="PASS">
+    <test started-at="2022-07-08T13:44:27 CEST" name="Package Test" finished-at="2022-07-08T13:44:27 CEST" duration-ms="49">
+      <class name="packages.package2.TestClass2a">
+        <test-method signature="aFastTest()[pri:0, instance:packages.package2.TestClass2a@2e55dd0c]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aFastTest -->
-        <test-method signature="aSlowTest()[pri:0, instance:SimpleTest@1b6e1eff]" started-at="2022-07-08T10:51:09 CEST" name="aSlowTest" finished-at="2022-07-08T10:51:09 CEST" duration-ms="0" status="PASS">
+      </class> <!-- packages.package2.TestClass2a -->
+      <class name="packages.package2.TestClass2b">
+        <test-method signature="aFastTest()[pri:0, instance:packages.package2.TestClass2b@77eca502]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aSlowTest -->
-      </class> <!-- SimpleTest -->
-    </test> <!-- bcd -->
-  </suite> <!-- abc -->
+        </test-method> <!-- aFastTest -->
+      </class> <!-- packages.package2.TestClass2b -->
+      <class name="packages.package1.TestClass1b">
+        <test-method signature="aFastTest()[pri:0, instance:packages.package1.TestClass1b@74455848]" started-at="2022-07-08T13:44:27 CEST" name="aFastTest" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aFastTest -->
+      </class> <!-- packages.package1.TestClass1b -->
+      <class name="packages.package1.TestClass1a">
+        <test-method signature="test1ab()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ab" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1ab -->
+        <test-method signature="test1aa()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1aa" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1aa -->
+        <test-method signature="test1ad()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ad" finished-at="2022-07-08T13:44:27 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1ad -->
+        <test-method signature="test1ac()[pri:0, instance:packages.package1.TestClass1a@e7edb54]" started-at="2022-07-08T13:44:27 CEST" name="test1ac" finished-at="2022-07-08T13:44:27 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1ac -->
+      </class> <!-- packages.package1.TestClass1a -->
+    </test> <!-- Package Test -->
+  </suite> <!-- Package Suite -->
 </testng-results>

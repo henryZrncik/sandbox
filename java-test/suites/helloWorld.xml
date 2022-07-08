@@ -4,7 +4,7 @@
 <suite name="abc" verbose="1" >
     <test name="bcd" >
         <classes>
-            <class name="SimpleTest" />
+            <class name="helloWorld.SimpleTest" />
         </classes>
     </test>
 </suite>

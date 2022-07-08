@@ -1,0 +1,13 @@
+<suite name="Method Suite" verbose="1">
+    <test name="Method Test">
+        <classes>
+            <class name="packages.package1.TestClass1a">
+                <methods>
+                    <include name="test1aa" />
+                    <include name="test1ab" />
+                    <include name="test1ac" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
